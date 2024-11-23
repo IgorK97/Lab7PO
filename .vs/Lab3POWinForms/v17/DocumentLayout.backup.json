@@ -1,38 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\",
+  "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab5po\\lab5webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab7po\\lab5webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab5po\\lab5webapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\dbreposmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\dbreposmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D82862C-41E7-43AB-8C91-5227B6C3DFA8}|BLL\\BLL.csproj|c:\\users\\igor\\source\\repos\\lab5po\\bll\\services\\orderlinesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D82862C-41E7-43AB-8C91-5227B6C3DFA8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\orderlinesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\reportrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\reportrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab5po\\lab5webapp\\views\\linqreport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\views\\linqreport\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\pizzasizerepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\pizzasizerepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab5po\\lab5webapp\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\pizzarepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\pizzarepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab5po\\lab5webapp\\controllers\\linqreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\controllers\\linqreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\orderrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\orderrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{914AEC3A-E9B0-41EB-BBE9-BC008C954B5C}|Interfaces\\Interfaces.csproj|c:\\users\\igor\\source\\repos\\lab5po\\interfaces\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{914AEC3A-E9B0-41EB-BBE9-BC008C954B5C}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\orderlinerepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\orderlinerepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D82862C-41E7-43AB-8C91-5227B6C3DFA8}|BLL\\BLL.csproj|c:\\users\\igor\\source\\repos\\lab5po\\bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D82862C-41E7-43AB-8C91-5227B6C3DFA8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\managerrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\managerrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\ingredientrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\ingredientrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\delstatusrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\delstatusrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\courierrepositorymongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\courierrepositorymongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\repository\\clientrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\clientrepositorypostgresql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +66,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab5WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\appsettings.json*",
+              "RelativeToolTip": "Lab5WebApp\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T12:34:36.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\ReportRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\ReportRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\ReportRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\ReportRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:31:59.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PizzaSizeRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\PizzaSizeRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\PizzaSizeRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\PizzaSizeRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\PizzaSizeRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:31:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PizzaRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\PizzaRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\PizzaRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\PizzaRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\PizzaRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:31:26.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbReposMongo.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DbReposMongo.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\DbReposMongo.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DbReposMongo.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\DbReposMongo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:26:56.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\OrderRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\OrderRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\OrderRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\OrderRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:31:11.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderLineRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\OrderLineRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\OrderLineRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\OrderLineRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\OrderLineRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:30:54.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManagerRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\ManagerRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\ManagerRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\ManagerRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\ManagerRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:30:30.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngredientRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\IngredientRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\IngredientRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\IngredientRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\IngredientRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:30:11.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DelStatusRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DelStatusRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\DelStatusRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DelStatusRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\DelStatusRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:29:52.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourierRepositoryMongo.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\CourierRepositoryMongo.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoRepository\\CourierRepositoryMongo.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\CourierRepositoryMongo.cs",
+              "RelativeToolTip": "DAL\\MongoRepository\\CourierRepositoryMongo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:29:22.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientRepositoryPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\Repository\\ClientRepositoryPostgreSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\ClientRepositoryPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\Repository\\ClientRepositoryPostgreSQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\ClientRepositoryPostgreSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:28:12.366Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -54,100 +234,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lab5WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAC4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T19:50:55.447Z",
+              "DocumentIndex": 13,
+              "Title": "InitialData.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
+              "RelativeDocumentMoniker": "DAL\\InitialData.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
+              "RelativeToolTip": "DAL\\InitialData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:14:47.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\LinqReport\\Create.cshtml",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Views\\LinqReport\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\LinqReport\\Create.cshtml",
-              "RelativeToolTip": "Lab5WebApp\\Views\\LinqReport\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T19:48:53.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\Basket\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Views\\Basket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Views\\Basket\\Index.cshtml",
-              "RelativeToolTip": "Lab5WebApp\\Views\\Basket\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T19:47:14.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderLinesService.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\BLL\\Services\\OrderLinesService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\OrderLinesService.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\BLL\\Services\\OrderLinesService.cs",
-              "RelativeToolTip": "BLL\\Services\\OrderLinesService.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAswIMAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "MongoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoContext.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
+              "RelativeToolTip": "DAL\\MongoContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:37:48.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Interfaces\\DTO\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Interfaces\\DTO\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Interfaces\\DTO\\OrderDto.cs",
-              "RelativeToolTip": "Interfaces\\DTO\\OrderDto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:35:56.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LinqReportController.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Controllers\\LinqReportController.cs",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Controllers\\LinqReportController.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Controllers\\LinqReportController.cs",
-              "RelativeToolTip": "Lab5WebApp\\Controllers\\LinqReportController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAwwDcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:34:18.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\BLL\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\BLL\\Services\\OrderService.cs",
-              "RelativeToolTip": "BLL\\Services\\OrderService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAmwF0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:25:19.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab5PO\\Lab5WebApp\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "Lab5WebApp\\Controllers\\BasketController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowCsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T18:59:24.328Z"
+              "WhenOpened": "2024-11-23T12:08:58.336Z",
+              "EditorCaption": ""
             }
           ]
         }
