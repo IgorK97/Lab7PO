@@ -34,7 +34,7 @@ namespace DAL.Repository
             var data = result.Where(i => i.ClientId == ClientId && i.CourierId != null).Select(j =>
             new OrdersByMonth
             {
-                order_id = j.Id,
+                order_id = j.Id.ToString(),
                 courier_id = db.Couriers.Where(c =>
             c.Id == j.CourierId).Select(c => new
             {

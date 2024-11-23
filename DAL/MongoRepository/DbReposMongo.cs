@@ -11,30 +11,39 @@ namespace DAL.MongoRepository
 {
     public class DbReposMongo : IDbRepos
     {
-        private PizzaDeliveryContext db;
-        private PizzaRepositoryPostgreSQL pizzaRepository;
-        private OrderRepositoryPostgreSQL orderRepository;
-        private IngredientRepositoryPostgreSQL ingredientRepository;
-        private ClientRepositoryPostgreSQL clientRepository;
-        private DelStatusRepositoryPostgreSQL delstatusRepository;
-        private CourierRepositoryPostgreSQL courierRepository;
-        private ManagerRepositoryPostgreSQL managerRepository;
-        private OrderLineRepositoryPostgreSQL orderLineRepository;
-        private PizzaSizeRepositoryPostgreSQL pizzaSizeRepository;
-        private ReportRepositoryPostgreSQL reportRepository;
+        private MongoContext db;
+        private PizzaRepositoryMongo pizzaRepository;
+        private OrderRepositoryMongo orderRepository;
+        private IngredientRepositoryMongo ingredientRepository;
+        private ClientRepositoryMongo clientRepository;
+        private DelStatusRepositoryMongo delstatusRepository;
+        private CourierRepositoryMongo courierRepository;
+        private ManagerRepositoryMongo managerRepository;
+        private OrderLineRepositoryMongo orderLineRepository;
+        private PizzaSizeRepositoryMongo pizzaSizeRepository;
+        private ReportRepositoryMongo reportRepository;
 
 
-        public DbReposMongo()
+        public DbReposMongo(string cs)
         {
-            db = new PizzaDeliveryContext();
+            db = new MongoContext(cs);
+            pizzaRepository = new PizzaRepositoryMongo(db);
+            orderRepository = new OrderRepositoryMongo(db);
+            ingredientRepository = new IngredientRepositoryMongo(db);
+            clientRepository = new ClientRepositoryMongo(db);
+            delstatusRepository = new DelStatusRepositoryMongo(db);
+            courierRepository = new CourierRepositoryMongo(db);
+            managerRepository = new ManagerRepositoryMongo(db);
+            orderLineRepository = new OrderLineRepositoryMongo(db);
+            pizzaSizeRepository = new PizzaSizeRepositoryMongo(db);
+            reportRepository = new ReportRepositoryMongo(db);
         }
 
         public IRepository<Pizza> Pizzas
         {
             get
             {
-                if (pizzaRepository == null)
-                    pizzaRepository = new PizzaRepositoryPostgreSQL(db);
+               
                 return pizzaRepository;
             }
         }
@@ -43,8 +52,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (orderRepository == null)
-                    orderRepository = new OrderRepositoryPostgreSQL(db);
+                
                 return orderRepository;
             }
         }
@@ -53,8 +61,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (ingredientRepository == null)
-                    ingredientRepository = new IngredientRepositoryPostgreSQL(db);
+               
                 return ingredientRepository;
             }
         }
@@ -63,8 +70,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (clientRepository == null)
-                    clientRepository = new ClientRepositoryPostgreSQL(db);
+                
                 return clientRepository;
             }
         }
@@ -75,8 +81,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (courierRepository == null)
-                    courierRepository = new CourierRepositoryPostgreSQL(db);
+                
                 return courierRepository;
             }
         }
@@ -84,8 +89,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (managerRepository == null)
-                    managerRepository = new ManagerRepositoryPostgreSQL(db);
+                
                 return managerRepository;
             }
         }
@@ -93,8 +97,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (delstatusRepository == null)
-                    delstatusRepository = new DelStatusRepositoryPostgreSQL(db);
+                
                 return delstatusRepository;
             }
         }
@@ -102,8 +105,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (orderLineRepository == null)
-                    orderLineRepository = new OrderLineRepositoryPostgreSQL(db);
+                
                 return orderLineRepository;
             }
         }
@@ -111,8 +113,7 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (pizzaSizeRepository == null)
-                    pizzaSizeRepository = new PizzaSizeRepositoryPostgreSQL(db);
+                
                 return pizzaSizeRepository;
             }
         }
@@ -121,15 +122,14 @@ namespace DAL.MongoRepository
         {
             get
             {
-                if (reportRepository == null)
-                    reportRepository = new ReportRepositoryPostgreSQL(db);
+                
                 return reportRepository;
             }
         }
 
         public int Save()
         {
-            return db.SaveChanges();
+            return 1;
         }
     }
 }

@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.MongoRepository
+namespace DAL.Repository
 {
-    public class ClientRepositoryMongo :IRepository<Client>
+    public class ClientRepositoryPostgreSQL :IRepository<Client>
     {
         private PizzaDeliveryContext db;
 
-        public ClientRepositoryMongo(PizzaDeliveryContext dbcontext)
+        public ClientRepositoryPostgreSQL(PizzaDeliveryContext dbcontext)
         {
             this.db = dbcontext;
         }

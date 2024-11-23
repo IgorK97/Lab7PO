@@ -8,16 +8,26 @@ using BLL.Services;
 using Interfaces.Repository;
 using DAL.Repository;
 using DAL;
+using DAL.MongoRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<PizzaDeliveryContext>(options =>
+//builder.Configuration.AddJsonFile("appsettings.json");
+//builder.Services.AddDbContext<MongoContext>(options =>
+//{
+//    /*options.UseNpgsql(builder.Configuration.GetConnectionString("dbPizzaDelivery"))*/;
+//});
+
+//builder.Services.AddScoped<MongoContext>(s =>
+//{
+//    return new MongoContext(builder.Configuration.GetConnectionString("PDMongo"));
+//});
+builder.Services.AddScoped<IDbRepos, DbReposMongo>(s =>
 {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("dbPizzaDelivery"));
+    return new DbReposMongo(builder.Configuration.GetConnectionString("PDMongo"));
 });
-builder.Services.AddScoped<IDbRepos, DbReposPgs>();
 
 builder.Services.AddScoped<IOrderLineService, OrderLinesService>();
 builder.Services.AddScoped<IIngredientService, IngredientService>();

@@ -8,7 +8,7 @@ namespace Interfaces.DTO
 {
     public class OrdersByMonth
     {
-        public int order_id { get; set; }
+        public string order_id { get; set; }
         public string? courier_id { get; set; }
         public DateTime? Date { get; set; }
     }

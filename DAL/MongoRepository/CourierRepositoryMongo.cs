@@ -1,5 +1,6 @@
 ﻿using DomainModel;
 using Interfaces.Repository;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,38 +11,45 @@ namespace DAL.MongoRepository
 {
     public class CourierRepositoryMongo :IRepository<Courier>
     {
-        private PizzaDeliveryContext db;
+        private MongoContext db;
 
-        public CourierRepositoryMongo(PizzaDeliveryContext dbcontext)
+        public CourierRepositoryMongo(MongoContext dbcontext)
         {
             this.db = dbcontext;
         }
 
         public List<Courier> GetList()
         {
-            return db.Couriers.ToList();
+            var builder = new FilterDefinitionBuilder<Courier>();
+            var filter = builder.Empty;
+
+            return new List<Courier>(db.CourierCollection.Find(filter).ToList());
         }
 
         public Courier GetItem(int id)
         {
-            return db.Couriers.Find(id);
+            return db.CourierCollection.Find(i => i.Id == id).FirstOrDefault();
+
         }
 
         public void Create(Courier courier)
         {
-            db.Couriers.Add(courier);
+            Courier last = db.CourierCollection.Find(new FilterDefinitionBuilder<Courier>().Empty)
+                .SortByDescending(i => i.Id).Limit(1).FirstOrDefault();
+            courier.Id = last != null ? last.Id + 1 : 1;
+            db.CourierCollection.InsertOneAsync(courier);
         }
 
         public void Update(Courier courier)
         {
-            db.Entry(courier).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            db.CourierCollection.ReplaceOneAsync(i => i.Id == courier.Id, courier);
+
         }
 
         public void Delete(int id)
         {
-            Courier courier = db.Couriers.Find(id);
-            if (courier != null)
-                db.Couriers.Remove(courier);
+            db.CourierCollection.DeleteOneAsync(i => i.Id == id);
+
         }
     }
 }

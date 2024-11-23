@@ -1,47 +1,55 @@
 ﻿using DomainModel;
 using Interfaces.Repository;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Repository
+namespace DAL.MongoRepository
 {
-    public class ClientRepositoryPostgreSQL :IRepository<Client>
+    public class ClientRepositoryMongo :IRepository<Client>
     {
-        private PizzaDeliveryContext db;
+        private MongoContext db;
 
-        public ClientRepositoryPostgreSQL(PizzaDeliveryContext dbcontext)
+        public ClientRepositoryMongo(MongoContext dbcontext)
         {
-            this.db = dbcontext;
+            db = dbcontext;
         }
 
         public List<Client> GetList()
         {
-            return db.Clients.ToList();
+            var builder = new FilterDefinitionBuilder<Client>();
+            var filter = builder.Empty;
+
+            return new List<Client>(db.ClientCollection.Find(filter).ToList());
         }
 
         public Client GetItem(int id)
         {
-            return db.Clients.Find(id);
+            return db.ClientCollection.Find(i => i.Id == id).FirstOrDefault();
+
         }
 
         public void Create(Client client)
         {
-            db.Clients.Add(client);
+            Client last = db.ClientCollection.Find(new FilterDefinitionBuilder<Client>().Empty)
+                .SortByDescending(i => i.Id).Limit(1).FirstOrDefault();
+            client.Id = last != null ? last.Id + 1 : 1;
+            db.ClientCollection.InsertOneAsync(client);
         }
 
         public void Update(Client client)
         {
-            db.Entry(client).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            db.ClientCollection.ReplaceOneAsync(i => i.Id == client.Id, client);
+
         }
 
         public void Delete(int id)
         {
-            Client client = db.Clients.Find(id);
-            if (client != null)
-                db.Clients.Remove(client);
+            db.ClientCollection.DeleteOneAsync(i => i.Id == id);
+
         }
     }
 }
