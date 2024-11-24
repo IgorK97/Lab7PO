@@ -73,3 +73,5 @@ C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\DAL.Properties.Resources.resources
+C:\Users\Igor\source\repos\Lab7PO\DAL\obj\Debug\net8.0\DAL.csproj.GenerateResource.cache

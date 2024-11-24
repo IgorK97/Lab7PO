@@ -273,3 +273,7 @@ C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\Users\Igor\source\repos\Lab7PO\Lab5WebApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

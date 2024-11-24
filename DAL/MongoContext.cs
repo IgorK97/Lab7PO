@@ -57,14 +57,16 @@ namespace DAL
         }
         public void Seed()
         {
-            UserCollection.InsertMany(InitialData.UserList);
-            ClientCollection.InsertMany(InitialData.ClientList);
-            CourierCollection.InsertMany(InitialData.CourierList);
-            ManagerCollection.InsertMany(InitialData.ManagerList);
-            //DelStatusCollection.InsertMany(InitialData.DelStatusList);
-            //PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
-            
-           
+            //UserCollection.InsertMany(InitialData.UserList);
+            //ClientCollection.InsertMany(InitialData.ClientList);
+            //CourierCollection.InsertMany(InitialData.CourierList);
+            //ManagerCollection.InsertMany(InitialData.ManagerList);
+            DelStatusCollection.InsertMany(InitialData.DelStatusList);
+            PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
+            PizzaCollection.InsertMany(InitialData.PizzaList);
+            //IngredientCollection.InsertMany(InitialData.IngredientList);
+            //OrderCollection.InsertMany(InitialData.OrderList);
+            //OrderLineCollection.InsertMany(InitialData.OrderLineList);
         }
         public MongoContext(string cs)
         {
@@ -73,7 +75,7 @@ namespace DAL
             MongoClient client = new MongoClient(connectionString);
             database = client.GetDatabase(connection.DatabaseName);
 
-            if (UserCollection.CountDocuments(FilterDefinition<User>.Empty) == 0) 
+            if (DelStatusCollection.CountDocuments(FilterDefinition<DelStatus>.Empty) == 0) 
                 Seed();
         }
     }

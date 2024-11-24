@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AB76E91-7A9A-47A8-91AB-79A89FB2399E}|DomainModel\\DomainModel.csproj|c:\\users\\igor\\source\\repos\\lab7po\\domainmodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB76E91-7A9A-47A8-91AB-79A89FB2399E}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\dbreposmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,33 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DomainModel\\User.cs",
-              "RelativeDocumentMoniker": "DomainModel\\User.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DomainModel\\User.cs",
-              "RelativeToolTip": "DomainModel\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:14:17.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InitialData.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
               "RelativeDocumentMoniker": "DAL\\InitialData.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
-              "RelativeToolTip": "DAL\\InitialData.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswB0AAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs*",
+              "RelativeToolTip": "DAL\\InitialData.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T07:10:19.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DbReposMongo.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DbReposMongo.cs",
               "RelativeDocumentMoniker": "DAL\\MongoRepository\\DbReposMongo.cs",
@@ -77,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MongoContext.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
               "RelativeDocumentMoniker": "DAL\\MongoContext.cs",
               "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs*",
               "RelativeToolTip": "DAL\\MongoContext.cs*",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwEwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T14:25:06.664Z",
               "EditorCaption": ""
