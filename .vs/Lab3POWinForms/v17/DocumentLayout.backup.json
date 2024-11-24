@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab7po\\lab5webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\initialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB76E91-7A9A-47A8-91AB-79A89FB2399E}|DomainModel\\DomainModel.csproj|c:\\users\\igor\\source\\repos\\lab7po\\domainmodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB76E91-7A9A-47A8-91AB-79A89FB2399E}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\dbreposmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\dbreposmongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|c:\\users\\igor\\source\\repos\\lab7po\\lab5webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41E77993-5591-434E-A61F-A6DEF251F56A}|Lab5WebApp\\Lab5WebApp.csproj|solutionrelative:lab5webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +38,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DomainModel\\User.cs",
+              "RelativeDocumentMoniker": "DomainModel\\User.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DomainModel\\User.cs",
+              "RelativeToolTip": "DomainModel\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:14:17.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InitialData.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
+              "RelativeDocumentMoniker": "DAL\\InitialData.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\InitialData.cs",
+              "RelativeToolTip": "DAL\\InitialData.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T07:10:19.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DbReposMongo.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DbReposMongo.cs",
               "RelativeDocumentMoniker": "DAL\\MongoRepository\\DbReposMongo.cs",
               "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\DbReposMongo.cs",
               "RelativeToolTip": "DAL\\MongoRepository\\DbReposMongo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T14:57:35.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "Lab5WebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\appsettings.json",
-              "RelativeToolTip": "Lab5WebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-23T14:29:50.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "Lab5WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\Program.cs*",
-              "RelativeToolTip": "Lab5WebApp\\Program.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:26:09.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MongoContext.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
               "RelativeDocumentMoniker": "DAL\\MongoContext.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
-              "RelativeToolTip": "DAL\\MongoContext.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswEgAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs*",
+              "RelativeToolTip": "DAL\\MongoContext.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwEwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T14:25:06.664Z",
               "EditorCaption": ""

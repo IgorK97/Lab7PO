@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab5WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90a5c168ed7d27e0444b22e9cce916013aa440ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c74b8ab7aa58b4555e88d8200f7d92c1a0bc974")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab5WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab5WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
