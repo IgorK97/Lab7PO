@@ -45,9 +45,14 @@ namespace DAL.MongoRepository
                     courier_id = i.GetValue("CourierId").ToInt32()
                 }).Select(i => new OrdersByMonth
                 {
+
                     order_id = i.order_id.ToString(),
                     Date = i.dt,
-                    courier_id = i.courier_id.ToString()
+                    courier_id = db.CourierCollection.AsQueryable().Where(c =>
+                    c.Id == i.courier_id).Select(c => new
+                    {
+                        FIO =  c.LastName + " " + c.FirstName + " " + c.Surname
+                    }).FirstOrDefault().FIO
                 });
             return res.ToList();
             //NpgsqlParameter param1 = new NpgsqlParameter("month", NpgsqlTypes.NpgsqlDbType.Integer);
