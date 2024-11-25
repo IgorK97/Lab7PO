@@ -21,6 +21,12 @@ namespace DAL.MongoRepository
         {
             this.db = dbcontext;
         }
+        class OrdersBM
+        {
+            public int order_id;
+            public DateTime dt;
+            public int courier_id;
+        }
         public List<OrdersByMonth> ExecuteSP(int month, int year, int ClientId)
         {
             var builder = new FilterDefinitionBuilder<Pizza>();
@@ -32,11 +38,16 @@ namespace DAL.MongoRepository
                 .Project(project)
                 .Match(fil)
                 .ToList()
-                .Select(i => new OrdersByMonth
+                .Select(i => new OrdersBM
                 {
-                    order_id = i.GetValue("Id").AsString,
-                    Date = i.GetValue("Date").ToLocalTime(),
-                    courier_id = i.GetValue("CourierId").AsString
+                    order_id = i.GetValue("_id").ToInt32(),
+                    dt = i.GetValue("Ordertime").ToLocalTime(),
+                    courier_id = i.GetValue("CourierId").ToInt32()
+                }).Select(i => new OrdersByMonth
+                {
+                    order_id = i.order_id.ToString(),
+                    Date = i.dt,
+                    courier_id = i.courier_id.ToString()
                 });
             return res.ToList();
             //NpgsqlParameter param1 = new NpgsqlParameter("month", NpgsqlTypes.NpgsqlDbType.Integer);
@@ -67,13 +78,27 @@ namespace DAL.MongoRepository
         {
             if (ingredientId != null)
             {
-                var request = db.PizzaCollection.AsQueryable().Where(p => p.Ingredients.Any(i => i.Id == ingredientId))
-                .Select(p => new ReportData
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Description = p.Description
-                }).ToList();
+                //var request = db.PizzaCollection.AsQueryable().Where(p => p.Ingredients.Any(i => i.Id == ingredientId))
+                //.Select(p => new ReportData
+                //{
+                //    Id = p.Id,
+                //    Name = p.Name,
+                //    Description = p.Description
+                //}).ToList();
+                //return request;
+                var request = (from pizza in db.PizzaCollection.AsQueryable()
+                               join pi in db.PizzaIngredientCollection.AsQueryable()
+                               on pizza.Id equals pi.pizzaId
+                               join ingr
+                               in db.IngredientCollection.AsQueryable()
+                               on pi.ingredientId equals ingr.Id
+                               where ingr.Id == ingredientId
+                               select new ReportData()
+                               {
+                                   Id = pizza.Id,
+                                   Name = pizza.Name,
+                                   Description = pizza.Description
+                               }).ToList();
                 return request;
             }
             var req = db.PizzaCollection.AsQueryable().Select(p => new ReportData

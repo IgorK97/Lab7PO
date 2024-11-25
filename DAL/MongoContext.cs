@@ -55,18 +55,28 @@ namespace DAL
         {
             get { return database.GetCollection<User>("User"); }
         }
+        public IMongoCollection<PizzaIngredient> PizzaIngredientCollection
+        {
+            get { return database.GetCollection<PizzaIngredient>("PizzaIngredient"); }
+        }
+        public IMongoCollection<CustomIngredient> CustomIngredientCollection
+        {
+            get { return database.GetCollection<CustomIngredient>("CustomIngredient"); }
+        }
         public void Seed()
         {
             //UserCollection.InsertMany(InitialData.UserList);
             //ClientCollection.InsertMany(InitialData.ClientList);
             //CourierCollection.InsertMany(InitialData.CourierList);
             //ManagerCollection.InsertMany(InitialData.ManagerList);
-            DelStatusCollection.InsertMany(InitialData.DelStatusList);
-            PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
-            PizzaCollection.InsertMany(InitialData.PizzaList);
+            //DelStatusCollection.InsertMany(InitialData.DelStatusList);
+            //PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
+            //PizzaCollection.InsertMany(InitialData.PizzaList);
             //IngredientCollection.InsertMany(InitialData.IngredientList);
+            //PizzaIngredientCollection.InsertMany(InitialData.PizzaIngredientList);
             //OrderCollection.InsertMany(InitialData.OrderList);
-            //OrderLineCollection.InsertMany(InitialData.OrderLineList);
+            OrderLineCollection.InsertMany(InitialData.OrderLineList);
+            CustomIngredientCollection.InsertMany(InitialData.CustomIngredientList);
         }
         public MongoContext(string cs)
         {
@@ -75,7 +85,7 @@ namespace DAL
             MongoClient client = new MongoClient(connectionString);
             database = client.GetDatabase(connection.DatabaseName);
 
-            if (DelStatusCollection.CountDocuments(FilterDefinition<DelStatus>.Empty) == 0) 
+            if (CustomIngredientCollection.CountDocuments(FilterDefinition<CustomIngredient>.Empty) == 0) 
                 Seed();
         }
     }

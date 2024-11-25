@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DomainModel
 {
-    internal class PizzaIngredient
+    public class PizzaIngredient
     {
+        public int pizzaId;
+        public int ingredientId;
     }
 }
