@@ -40,11 +40,15 @@ namespace Lab5WebApp.Controllers
             olm.pizzaId = id;
             olm.Id = 0;
             olm.PizzaSize_Id = 1;
+            decimal pr, we;
+            (pr, we) = orderLineService.GetBasePriceAndWeight(1);
+            
             decimal price, weight;
             //(price, weight) = orderLineService.GetBasePriceAndWeight(1);
-            (price, weight) = orderLineService.GetConcretePriceAndWeight(id, 1, 1);
-            olm.position_price = price;
-            olm.weight = weight;
+            (price, weight) = olm.GetConcretePriceAndWeight(id, 1, 1);
+
+            olm.position_price = price+pr;
+            olm.weight = weight+we;
             olm.Name = olm.pizzas.Where(p => p.Id == id).Select(p => p.C_name).FirstOrDefault();
             return View(olm);
         }

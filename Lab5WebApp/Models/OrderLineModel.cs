@@ -62,6 +62,32 @@ namespace Lab5WebApp.Models
 
         public List<int> addedingredientsIds { get; set; }
         public List<IngredientShortDto> addedingredients { get; set; }
-        
+
+        public (decimal price, decimal weight) GetConcretePriceAndWeight(int id, int size,
+            int q)
+        {
+            decimal res_price, res_weight;
+            res_price = pizzas.Where(p => p.Id == id)
+               .Select(p => new
+               {
+
+                   price = p.listedingredients.Select(i => new
+                   {
+                       Price = i.small * i.price_per_gram
+                   }).Sum(i => i.Price)
+
+               }).Sum(i => i.price);
+            res_weight = pizzas.Where(p => p.Id == id)
+               .Select(p => new
+               {
+
+                   weight = p.listedingredients.Select(i => new
+                   {
+                       Weight = i.small
+                   }).Sum(i => i.Weight)
+
+               }).Sum(i => i.weight);
+            return (res_price, res_weight);
+        }
     }
 }

@@ -26,7 +26,30 @@ namespace DAL.MongoRepository
             var builder = new FilterDefinitionBuilder<Pizza>();
             var filter = builder.Empty;
 
-            return new List<Pizza>(db.PizzaCollection.Find(filter).ToList());
+            List<Pizza> pizzas = (db.PizzaCollection.Find(filter).ToList());
+            List<Pizza> newpizzas = new List<Pizza>();
+            foreach(Pizza p in pizzas)
+            {
+                List<Ingredient> ingrs = (from ingr in db.IngredientCollection.AsQueryable()
+                                          join pi in db.PizzaIngredientCollection.AsQueryable()
+                                          on ingr.Id equals pi.ingredientId
+                                          where pi.pizzaId == p.Id
+                                          select new Ingredient
+                                          {
+                                              Id = ingr.Id,
+                                              PricePerGram = ingr.PricePerGram,
+                                              Active = ingr.Active,
+                                              Big = ingr.Big,
+                                              Medium = ingr.Medium,
+                                              Small = ingr.Small,
+                                              Ingrimage = ingr.Ingrimage,
+                                              Name = ingr.Name
+                                          }).ToList();
+                Pizza newp = p;
+                newp.Ingredients = ingrs;
+                newpizzas.Add(newp);
+            }
+            return newpizzas;
         }
 
         public Pizza GetItem(int id)

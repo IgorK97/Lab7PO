@@ -47,7 +47,32 @@ namespace BLL.Services
 
         public OrderDto RetOrder(int cur)
         {
-            return dbr.Orders.GetList().Where(o => o.Id == cur).Select(i => new OrderDto(i)).FirstOrDefault();
+            OrderDto odto = new OrderDto(dbr.Orders.GetItem(cur));
+            //List<OrderLineDto> odtolines = dbr.OrderLines.GetList().Where(i =>
+            //i.OrdersId == cur).Select(i => new OrderLineDto()
+            //{
+            //    Id=i.Id,
+            //    pizzaId=i.PizzaId,
+            //    position_price=i.PositionPrice,
+            //    weight=i.Weight,
+            //    quantity=i.Quantity,
+            //    custom=i.Custom,
+            //    pizza_sizesId=i.PizzaSizesId,
+            //    ordersId=i.OrdersId
+            //}).ToList();
+            //List<OrderLineDto> odtolines_new = new List<OrderLineDto>();
+            //foreach (OrderLineDto line in odtolines)
+            //{
+            //    OrderLineDto ordto = line;
+            //    PizzaDto pdto = dbr.Pizzas.GetList().Where(i => i.Id == line.pizzaId).
+            //        Select(i => new PizzaDto(i)).FirstOrDefault();
+            //    decimal price, weight;
+            //    price = (from ingr in dbr.Ingredients.GetList().As)
+            //    ordto.Pizza = pdto;
+            //    odtolines_new.Add(ordto);
+            //}
+            //odto.order_lines = odtolines_new;
+            return odto;
         }
 
         public enum DeliveryStatus
@@ -83,9 +108,11 @@ namespace BLL.Services
         {
             Order order = dbr.Orders.GetItem(odId);
             order.DelstatusId = (int)DeliveryStatus.Canceled;
-            if (dbr.Save() > 0)
-                return true;
-            return false;
+            dbr.Orders.Update(order);
+            //if (dbr.Save() > 0)
+            //    return true;
+            //return false;
+            return true;
         }
 
         public bool SubmitOrder(int odId, string addressdel)
@@ -98,8 +125,10 @@ namespace BLL.Services
                 order.DelstatusId = (int)DeliveryStatus.IsBeingFormed;
                 order.Ordertime = DateTime.UtcNow;
                 order.AddressDel = addressdel;
-                if (dbr.Save() > 0)
-                    return true;
+                dbr.Orders.Update(order); 
+                return true;
+                //if (dbr.Save() > 0)
+                //    return true;
             }
             return false;
         }
@@ -112,9 +141,11 @@ namespace BLL.Services
             Order order = dbr.Orders.GetItem(odId);
             order.Weight = weight;
             order.FinalPrice = price;
-            if (dbr.Save() > 0)
-                return (price, weight);
-            throw new Exception("Ошибка обновления заказа");
+            dbr.Orders.Update(order);
+            return (price, weight);
+            //if (dbr.Save() > 0)
+            //    return (price, weight);
+            //throw new Exception("Ошибка обновления заказа");
         }
 
 

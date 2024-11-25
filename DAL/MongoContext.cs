@@ -85,8 +85,8 @@ namespace DAL
             MongoClient client = new MongoClient(connectionString);
             database = client.GetDatabase(connection.DatabaseName);
 
-            if (CustomIngredientCollection.CountDocuments(FilterDefinition<CustomIngredient>.Empty) == 0) 
-                Seed();
+            //if (CustomIngredientCollection.CountDocuments(FilterDefinition<CustomIngredient>.Empty) == 0) 
+            //    Seed();
         }
     }
 }

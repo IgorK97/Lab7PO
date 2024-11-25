@@ -82,7 +82,8 @@ namespace BLL.Services
             Order odto = dbr.Orders.GetList().Where(o => o.Id == p.ordersId).FirstOrDefault();
             odto.FinalPrice += p.position_price;
             odto.Weight += p.weight;
-            Save();
+            dbr.Orders.Update(odto);
+            //Save();
         }
 
         public void UpdateOrderLine(OrderLineDto p)
@@ -218,11 +219,14 @@ namespace BLL.Services
                 res_price = dbr.Ingredients.GetList().Where(p => p.Pizzas.Any(i => i.Id == p_id))
                 .Select(p => new
                 {
-                    price = p.PricePerGram*p.Small
+                    price = p.PricePerGram * p.Small
 
                 }).Sum(i => i.price);
                 res_weight = dbr.Ingredients.GetList().Where(p => p.Pizzas.Any(i => i.Id == p_id))
                     .Sum(i => i.Small);
+
+                //res_price = (from ingr in dbr.Ingredients.GetList().AsQueryable()
+                //             join pi in dbr.)
             }
             else if (ps == (int)PizzaSizeEnum.Medium)
             {
