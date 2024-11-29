@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|c:\\users\\igor\\source\\repos\\lab7po\\dal\\mongorepository\\reportrepositorymongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89B0CB48-ADC6-4A69-AA1B-D94F3181AAAC}|DAL\\DAL.csproj|solutionrelative:dal\\mongorepository\\reportrepositorymongo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MongoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
+              "RelativeDocumentMoniker": "DAL\\MongoContext.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoContext.cs",
+              "RelativeToolTip": "DAL\\MongoContext.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwFAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:41:25.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReportRepositoryMongo.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\DAL\\MongoRepository\\ReportRepositoryMongo.cs",
               "RelativeDocumentMoniker": "DAL\\MongoRepository\\ReportRepositoryMongo.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BasketController.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\Lab7PO\\Lab5WebApp\\Controllers\\BasketController.cs",
               "RelativeDocumentMoniker": "Lab5WebApp\\Controllers\\BasketController.cs",
@@ -51,8 +68,7 @@
               "RelativeToolTip": "Lab5WebApp\\Controllers\\BasketController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:30:09.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T17:30:09.182Z"
             }
           ]
         }

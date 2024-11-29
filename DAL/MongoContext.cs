@@ -65,16 +65,16 @@ namespace DAL
         }
         public void Seed()
         {
-            //UserCollection.InsertMany(InitialData.UserList);
-            //ClientCollection.InsertMany(InitialData.ClientList);
-            //CourierCollection.InsertMany(InitialData.CourierList);
-            //ManagerCollection.InsertMany(InitialData.ManagerList);
-            //DelStatusCollection.InsertMany(InitialData.DelStatusList);
-            //PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
-            //PizzaCollection.InsertMany(InitialData.PizzaList);
-            //IngredientCollection.InsertMany(InitialData.IngredientList);
-            //PizzaIngredientCollection.InsertMany(InitialData.PizzaIngredientList);
-            //OrderCollection.InsertMany(InitialData.OrderList);
+            UserCollection.InsertMany(InitialData.UserList);
+            ClientCollection.InsertMany(InitialData.ClientList);
+            CourierCollection.InsertMany(InitialData.CourierList);
+            ManagerCollection.InsertMany(InitialData.ManagerList);
+            DelStatusCollection.InsertMany(InitialData.DelStatusList);
+            PizzaSizeCollection.InsertMany(InitialData.PizzaSizeList);
+            PizzaCollection.InsertMany(InitialData.PizzaList);
+            IngredientCollection.InsertMany(InitialData.IngredientList);
+            PizzaIngredientCollection.InsertMany(InitialData.PizzaIngredientList);
+            OrderCollection.InsertMany(InitialData.OrderList);
             OrderLineCollection.InsertMany(InitialData.OrderLineList);
             CustomIngredientCollection.InsertMany(InitialData.CustomIngredientList);
         }
@@ -85,8 +85,8 @@ namespace DAL
             MongoClient client = new MongoClient(connectionString);
             database = client.GetDatabase(connection.DatabaseName);
 
-            //if (CustomIngredientCollection.CountDocuments(FilterDefinition<CustomIngredient>.Empty) == 0) 
-            //    Seed();
+            if (CustomIngredientCollection.CountDocuments(FilterDefinition<CustomIngredient>.Empty) == 0)
+                Seed();
         }
     }
 }
