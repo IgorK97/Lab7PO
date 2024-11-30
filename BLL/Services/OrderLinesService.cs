@@ -132,7 +132,7 @@ namespace BLL.Services
             odto.FinalPrice -= ol.PositionPrice;
             odto.Weight -= ol.Weight;
             dbr.OrderLines.Delete(id);
-
+            dbr.Orders.Update(odto);
             Save();
             //}
         }

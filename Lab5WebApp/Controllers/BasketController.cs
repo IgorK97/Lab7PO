@@ -36,7 +36,9 @@ namespace Lab5WebApp.Controllers
         public ActionResult Cancel(int id)
         {
             orderLineService.DeleteOrderLine(id);
-            return RedirectToAction("Index");
+            currentOrderId = orderService.GetCurrentOrder(3);
+            OrderDto odto = orderService.RetOrder(currentOrderId);
+            return RedirectToAction("Index", odto);
         }
         [HttpPost]
         public ActionResult MakeOrder(OrderDto o)

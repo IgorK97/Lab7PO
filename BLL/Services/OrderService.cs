@@ -107,7 +107,10 @@ namespace BLL.Services
         public bool CancelOrder(int odId)
         {
             Order order = dbr.Orders.GetItem(odId);
-            order.DelstatusId = (int)DeliveryStatus.Canceled;
+            if(order.DelstatusId!=(int)DeliveryStatus.Delivered && 
+                order.DelstatusId!=(int)DeliveryStatus.NotDelivered &&
+                order.DelstatusId!=(int)DeliveryStatus.Canceled)
+                order.DelstatusId = (int)DeliveryStatus.Canceled;
             dbr.Orders.Update(order);
             //if (dbr.Save() > 0)
             //    return true;
